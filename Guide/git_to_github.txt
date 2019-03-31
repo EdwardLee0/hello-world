@@ -1,0 +1,12 @@
+Step 1: Sign up and sign in
+Step 2: Download git-->git_bush--> ssh-keygen -C 'git@your_email_address' -t rsa -->three times Enter
+Step 3: cd C:/Adminstrator/.ssh
+Step 4: cp id_rsa.pub 's content to Github ssh
+Step 5: Git_bush:ssh -T git@github.com 
+Step 6: New repository in Github
+Step 7: Git_bush: git clone https://... (your repository address)
+Step 8: cp your files to the cloned one
+Step 9: git add copied file
+Step 10: git commit -m 'describe'
+Step 11: git push origin master
+Done!
